@@ -1,0 +1,4 @@
+category: X11 Editors
+requires: cygwin libX11_6 libXaw8 libXprintUtil1
+sdesc: "Xorg text editor"
+ldesc: "Xorg text editor"
