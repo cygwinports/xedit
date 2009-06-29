@@ -1,4 +1,4 @@
 category: X11 Editors
-requires: cygwin libX11_6 libXaw7 libXmu6 libXt6 aspell aspell-en ctags grep font-alias font-adobe-dpi75 font-adobe-dpi100 font-bh-dpi75 font-bh-dpi100 font-bh-lucidatypewriter-dpi75 font-bh-lucidatypewriter-dpi100 font-dec-misc font-misc-misc
+requires: libX11_6 libXaw7 libXmu6 libXt6 aspell aspell-en ctags grep font-alias font-adobe-dpi75 font-adobe-dpi100 font-bh-dpi75 font-bh-dpi100 font-bh-lucidatypewriter-dpi75 font-bh-lucidatypewriter-dpi100 font-dec-misc font-misc-misc
 sdesc: "X.Org text editor"
 ldesc: "X.Org text editor"
