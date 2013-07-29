@@ -1,0 +1,9 @@
+inherit xorg
+
+NAME="xedit"
+VERSION=1.2.1
+RELEASE=1
+CATEGORY="Editors"
+SUMMARY="X text editor"
+DESCRIPTION="Xedit is a simple text editor for the X Window System"
+REQUIRES="aspell ctags grep font-alias font-adobe-dpi75 font-adobe-dpi100 font-bh-dpi75 font-bh-dpi100 font-bh-lucidatypewriter-dpi75 font-bh-lucidatypewriter-dpi100 font-dec-misc font-misc-misc"
