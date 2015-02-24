@@ -1,9 +1,18 @@
 inherit xorg
 
 NAME="xedit"
-VERSION=1.2.1
+VERSION=1.2.2
 RELEASE=1
 CATEGORY="Editors"
 SUMMARY="X text editor"
 DESCRIPTION="Xedit is a simple text editor for the X Window System"
 REQUIRES="aspell ctags grep font-alias font-adobe-dpi75 font-adobe-dpi100 font-bh-dpi75 font-bh-dpi100 font-bh-lucidatypewriter-dpi75 font-bh-lucidatypewriter-dpi100 font-dec-misc font-misc-misc"
+
+CYGCONF_ARGS="--with-lispdir=/usr/share/X11/${NAME}"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	make_desktop_entry xedit "Xedit" "" "Utility;TextEditor" "Simple text editor for X" "MimeType=text/plain;"
+}
